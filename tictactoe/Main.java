@@ -1,6 +1,6 @@
 package tictactoe;
 
-import tictactoe.game.GameTime;
+import tictactoe.oldgame.GameTime;
 
 public class Main {
 

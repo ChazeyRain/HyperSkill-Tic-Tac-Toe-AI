@@ -1,6 +1,6 @@
-package tictactoe.game.Profiles;
+package tictactoe.oldgame.profiles;
 
-import tictactoe.game.Field;
+import tictactoe.oldgame.Field;
 
 
 public interface Player {
