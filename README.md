@@ -1,1 +1,1 @@
-This is simple tic tac toe game with an AI, nothing interesting there
+This is simple tic tac toe game with an AI, nothing interesting here
