@@ -7,6 +7,10 @@ public class Field {
     private int[] cells;
     private int moves;
 
+    public int getMoves() {
+        return moves;
+    }
+
     public int[] getCells() {
         return cells.clone();
     }
@@ -23,7 +27,7 @@ public class Field {
     public void move(int i, int j) throws UnsupportedOperationException {
 
         if (i > 3 || i < 0 || j > 3 || j < 0) {
-            throw  new UnsupportedOperationException("Coordinates should be from 1 to 3");
+            throw  new UnsupportedOperationException("Coordinates should be from 0 to 2");
         }
 
         if (cells[i * 3 + j] == 0) {
@@ -57,7 +61,7 @@ public class Field {
         }
     }
 
-    public FieldStatus getGameStatus() {
+    public FieldStatus getFieldStatus() {
         int[] sums = new int[8];
 
         for (int i = 0; i < 3; i++) {

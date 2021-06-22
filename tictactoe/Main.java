@@ -1,7 +1,5 @@
 package tictactoe;
 
-import tictactoe.oldgame.GameTime;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -9,9 +7,6 @@ public class Main {
 
         //this peace of shit needs a remake
 
-        GameTime game = new GameTime();
-
-        game.run();
 
 
     }

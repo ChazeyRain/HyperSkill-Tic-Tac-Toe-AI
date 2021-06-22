@@ -1,4 +1,5 @@
 package tictactoe.game.UI;
 
-public class cui {
+public class CLI {
+
 }
